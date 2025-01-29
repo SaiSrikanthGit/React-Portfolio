@@ -1,69 +1,66 @@
+import CSharp from "../assets/Icons/CSharp.png";
+import HTML from "../assets/Icons/HTML.png";
+import CSS from "../assets/Icons/CSS.png";
+import NET from "../assets/Icons/NET_Core.png";
+import MS_SQL from "../assets/Icons/MS_SQL_Server.png";
+import JS from "../assets/Icons/JS.png";
+import Tailwind from "../assets/Icons/TailwindCSS.png";
+import Azure from "../assets/Icons/Azure.png";
+import DevOps from "../assets/Icons/Azure_DevOps.png";
+import Visual_Studio from "../assets/Icons/VisualStudio.png";
+import Git from "../assets/Icons/Git.png";
+import React from "../assets/Icons/ReactJS.png";
+import XUnit from "../assets/Icons/Xunit.png";
+import NUnit from "../assets/Icons/Nunit.png";
+import Moq from "../assets/Icons/Moq.png";
+
 function TechStack() {
+  const techStack = [
+    { icon: CSharp, name: "C#" },
+    { icon: HTML, name: "HTML" },
+    { icon: CSS, name: "CSS" },
+    { icon: NET, name: ".NET" },
+    { icon: MS_SQL, name: "MS SQL" },
+    { icon: JS, name: "JavaScript" },
+    { icon: Tailwind, name: "Tailwind" },
+    { icon: Azure, name: "Azure" },
+    { icon: DevOps, name: "Azure DevOps" },
+    { icon: Visual_Studio, name: "Visual Studio" },
+    { icon: Git, name: "Git" },
+    { icon: React, name: "React" },
+    { icon: XUnit, name: "XUnit" },
+    { icon: NUnit, name: "NUnit" },
+    { icon: Moq, name: "Moq" },
+  ];
+
+  // Duplicate the array to create a seamless loop
+  const duplicatedTechStack = [...techStack, ...techStack];
+
   return (
-    <div>
-      <div>
-        <img src="Asset/Icons/CSharp.png" alt="C#" />
-        <p>C#</p>
-      </div>
-      <div>
-        <img src="Asset/Icons/HTML.png" alt="HTML" />
-        <p>HTML</p>
-      </div>
-      <div>
-        <img src="Asset/Icons/CSS.png" alt="CSS3" />
-        <p>CSS</p>
-      </div>
-      <div>
-        <img src="Asset/Icons/NET_Core.png" alt=".NET" />
-        <p>.NET</p>
-      </div>
-      <div>
-        <img src="Asset/Icons/MS_SQL_Server.png" alt="MS SQL" />
-        <p>MS SQL</p>
-      </div>
-      <div>
-        <img src="Asset/Icons/JS.png" alt="JavaScript" />
-        <p>Java Script</p>
-      </div>
-      <div>
-        <img src="Asset/Icons/Blazor.png" alt="Blazor" />
-        <p>Blazor</p>
-      </div>
-      <div>
-        <img src="Asset/Icons/Bootstrap.png" alt="Bootstrap" />
-        <p>Bootstrap</p>
-      </div>
-      <div>
-        <img src="Asset/Icons/Azure.png" alt="Azure" />
-        <p>Azure</p>
-      </div>
-      <div>
-        <img src="Asset/Icons/Azure_DevOps.png" alt="Azure DevOps" />
-        <p>Azure DevOps</p>
-      </div>
-      <div>
-        <img src="Asset/Icons/VisualStudio.png" alt="Visual Studio" />
-        <p>Visual Studio</p>
-      </div>
-      <div>
-        <img src="Asset/Icons/Git.png" alt="Git" />
-        <p>Git</p>
-      </div>
-      <div>
-        <img src="Asset/Icons/CPlusPlus.png" alt="C++" />
-        <p>C++</p>
-      </div>
-      <div>
-        <img src="Asset/Icons/Xunit.png" alt="XUnit" />
-        <p>XUnit</p>
-      </div>
-      <div>
-        <img src="Asset/Icons/NUnit.png" alt="NUnit" />
-        <p>NUnit</p>
-      </div>
-      <div>
-        <img src="Asset/Icons/Moq.png" alt="Moq" />
-        <p>Moq</p>
+    <div className="bg-gray-50 py-12 overflow-hidden">
+      {/* Section Title */}
+      <h2 className="text-3xl font-bold text-gray-900 text-center mb-8">
+        Tech Stack
+      </h2>
+
+      {/* Infinite Scrolling Container */}
+      <div className="relative w-full overflow-hidden">
+        {/* Scrolling Cards */}
+        <div className="flex animate-infinite-scroll">
+          {duplicatedTechStack.map((tech, index) => (
+            <div
+              key={index}
+              className="flex-shrink-0 w-48 h-48 bg-white rounded-lg shadow-lg flex flex-col items-center justify-center mx-4 p-6 transform transition-transform hover:scale-105"
+            >
+              <img
+                src={tech.icon}
+                alt={tech.name}
+                className="w-16 h-16 object-contain mb-4"
+              />
+              <p className="text-lg font-semibold text-gray-800">{tech.name}</p>
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );

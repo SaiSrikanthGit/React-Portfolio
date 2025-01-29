@@ -1,17 +1,27 @@
+import myImage from "../assets/ProfilePicture.png";
+
 function Header() {
   return (
-    <nav className="bg-gradient-to-r from-blue-600 to-blue-800 sticky top-0 z-50 shadow-lg">
-      <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-        {/* Portfolio Tag on the Left */}
-        <a
-          href="#top"
-          className="text-white text-2xl font-bold tracking-wide flex items-center space-x-2"
-        >
-          <span>My Portfolio</span>
-        </a>
+    <div className="relative">
+      {/* Overlapping Navigation Bar */}
+      <nav className="bg-gradient-to-r from-blue-600 to-blue-800 sticky top-0 z-50 shadow-xl h-20 flex items-center px-6 sm:px-8 lg:px-12">
+        {/* Portfolio Brand Logo and Name */}
+        <div className="flex items-center space-x-4">
+          <img
+            src="https://via.placeholder.com/40" // Replace with your logo
+            alt="Portfolio Logo"
+            className="w-10 h-10 rounded-full"
+          />
+          <a
+            href="#top"
+            className="text-white text-2xl font-bold tracking-wide"
+          >
+            My Portfolio
+          </a>
+        </div>
 
         {/* Desktop Menu on the Right */}
-        <ul className="hidden sm:flex space-x-8 text-white font-medium">
+        <ul className="hidden sm:flex space-x-8 text-white font-medium ml-8">
           <li>
             <a
               href="#AboutMe"
@@ -71,7 +81,7 @@ function Header() {
         </ul>
 
         {/* Mobile Menu Button */}
-        <div className="sm:hidden">
+        <div className="sm:hidden ml-auto">
           <button
             className="text-white focus:outline-none"
             aria-label="Menu Toggle"
@@ -79,8 +89,8 @@ function Header() {
             <i className="fas fa-bars text-xl"></i>
           </button>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </div>
   );
 }
 

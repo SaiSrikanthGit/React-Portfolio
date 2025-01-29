@@ -1,3 +1,6 @@
+import Siemens from "../assets/Siemens_Healthineers.png";
+import Accenture from "../assets/Accenture.png";
+
 function WorkExperience() {
   return (
     <div className="bg-gray-50 text-gray-900 font-sans py-12 px-6">
@@ -13,8 +16,8 @@ function WorkExperience() {
         </header>
 
         <ExperienceCard
-          company="Siemens Healthineers"
-          logo="/logos/siemens.png"
+          // company="Siemens Healthineers"
+          logo={Siemens}
           role="Software Engineer / Work Student"
           duration="Apr 2022 – Sep 2024"
           location="Forchheim, Germany"
@@ -29,8 +32,8 @@ function WorkExperience() {
         />
 
         <ExperienceCard
-          company="Accenture"
-          logo="/logos/accenture.png"
+          // company="Accenture"
+          logo={Accenture}
           role="Software Engineer"
           duration="Nov 2018 - Jul 2021"
           location="Hyderabad, India"

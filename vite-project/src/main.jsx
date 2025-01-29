@@ -10,15 +10,19 @@ import Skills from "./Pages/Skills.jsx";
 import Certifications from "./Pages/Certifications.jsx";
 import Education from "./Pages/Education.jsx";
 import Footer from "./Components/Footer.jsx";
+import Timeline from "./Components/Timeline.jsx";
+import TechStack from "./Components/TechStack.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <Header />
     <AboutMe />
+    <TechStack />
+    <Timeline />
     <WorkExperience />
     <Skills />
-    <Projects />
     <Certifications />
+    <Projects />
     <Education />
     <Footer />
   </StrictMode>
