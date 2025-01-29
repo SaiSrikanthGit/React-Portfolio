@@ -1,7 +1,8 @@
 function Header() {
   return (
-    <nav className="bg-gradient-to-r from-gray-800 to-indigo-900 sticky top-0 z-50 shadow-md">
+    <nav className="bg-gradient-to-r from-blue-600 to-blue-800 sticky top-0 z-50 shadow-lg">
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+        {/* Portfolio Tag on the Left */}
         <a
           href="#top"
           className="text-white text-2xl font-bold tracking-wide flex items-center space-x-2"
@@ -9,12 +10,12 @@ function Header() {
           <span>My Portfolio</span>
         </a>
 
-        {/* Desktop Menu */}
+        {/* Desktop Menu on the Right */}
         <ul className="hidden sm:flex space-x-8 text-white font-medium">
           <li>
             <a
               href="#AboutMe"
-              className="hover:text-indigo-200 transition-colors duration-300"
+              className="hover:text-indigo-200 transition-colors duration-300 transform hover:scale-105"
             >
               About Me
             </a>
@@ -22,7 +23,7 @@ function Header() {
           <li>
             <a
               href="#WorkExperience"
-              className="hover:text-indigo-200 transition-colors duration-300"
+              className="hover:text-indigo-200 transition-colors duration-300 transform hover:scale-105"
             >
               Work Experience
             </a>
@@ -30,7 +31,7 @@ function Header() {
           <li>
             <a
               href="#Skills"
-              className="hover:text-indigo-200 transition-colors duration-300"
+              className="hover:text-indigo-200 transition-colors duration-300 transform hover:scale-105"
             >
               Skills
             </a>
@@ -38,7 +39,7 @@ function Header() {
           <li>
             <a
               href="#Certifications"
-              className="hover:text-indigo-200 transition-colors duration-300"
+              className="hover:text-indigo-200 transition-colors duration-300 transform hover:scale-105"
             >
               Certifications
             </a>
@@ -46,7 +47,7 @@ function Header() {
           <li>
             <a
               href="#Projects"
-              className="hover:text-indigo-200 transition-colors duration-300"
+              className="hover:text-indigo-200 transition-colors duration-300 transform hover:scale-105"
             >
               Projects
             </a>
@@ -54,7 +55,7 @@ function Header() {
           <li>
             <a
               href="#Education"
-              className="hover:text-indigo-200 transition-colors duration-300"
+              className="hover:text-indigo-200 transition-colors duration-300 transform hover:scale-105"
             >
               Education
             </a>
@@ -62,7 +63,7 @@ function Header() {
           <li>
             <a
               href="#Footer"
-              className="hover:text-indigo-200 transition-colors duration-300"
+              className="hover:text-indigo-200 transition-colors duration-300 transform hover:scale-105"
             >
               Contact
             </a>
