@@ -1,7 +1,7 @@
 function App() {
   return (
     <div>
-      <h1>Hello, Vite + React!</h1>
+      <h1 className="text-red-500">Hello, Vite + React!</h1>
       <p>Start editing to see some magic happen!</p>
     </div>
   );
