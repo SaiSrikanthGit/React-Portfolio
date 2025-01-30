@@ -1,7 +1,6 @@
 import React from "react";
-import MainLayout from "./MainLayout";
+import MainLayout from "./Components/MainLayout.jsx";
 
-import Header from "./Components/Navbar.jsx";
 import AboutMe from "./Pages/AboutMe.jsx";
 import Projects from "./Pages/Projects.jsx";
 import WorkExperience from "./Pages/WorkExperience.jsx";

@@ -1,3 +1,4 @@
+import React from "react";
 import CSharp from "../assets/Icons/CSharp.png";
 import HTML from "../assets/Icons/HTML.png";
 import CSS from "../assets/Icons/CSS.png";
@@ -9,7 +10,7 @@ import Azure from "../assets/Icons/Azure.png";
 import DevOps from "../assets/Icons/Azure_DevOps.png";
 import Visual_Studio from "../assets/Icons/VisualStudio.png";
 import Git from "../assets/Icons/Git.png";
-import React from "../assets/Icons/ReactJS.png";
+import ReactIcon from "../assets/Icons/ReactJS.png";
 import XUnit from "../assets/Icons/Xunit.png";
 import NUnit from "../assets/Icons/Nunit.png";
 import Moq from "../assets/Icons/Moq.png";
@@ -27,7 +28,7 @@ function TechStack() {
     { icon: DevOps, name: "Azure DevOps" },
     { icon: Visual_Studio, name: "Visual Studio" },
     { icon: Git, name: "Git" },
-    { icon: React, name: "React" },
+    { icon: ReactIcon, name: "React" },
     { icon: XUnit, name: "XUnit" },
     { icon: NUnit, name: "NUnit" },
     { icon: Moq, name: "Moq" },
