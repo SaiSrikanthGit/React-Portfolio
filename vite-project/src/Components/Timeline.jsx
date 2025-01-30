@@ -19,13 +19,13 @@ function TimelineDashboard() {
               {/* Card */}
               <div className="bg-white p-6 rounded-lg shadow-lg mb-4 transform transition-transform hover:scale-105">
                 <h5 className="text-xl font-semibold text-blue-600">
-                  July 2014 Beginning of First Academic Degree
+                  Engineering Journey Begins
                 </h5>
                 <p className="text-gray-600 mt-2">
                   Started my Bachelor's Degree in Electronics and Communication
                   Engineering
                 </p>
-                <span className="text-sm text-gray-500">Aug 2021</span>
+                <span className="text-sm text-gray-500">Jul 2018</span>
               </div>
               {/* Icon */}
               <div className="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center shadow-lg">
@@ -42,12 +42,12 @@ function TimelineDashboard() {
               {/* Card */}
               <div className="bg-white p-6 rounded-lg shadow-lg mt-4 transform transition-transform hover:scale-105">
                 <h5 className="text-xl font-semibold text-green-600">
-                  May 2018 Completed My Bachelor's Degree
+                  First Milestone Achieved
                 </h5>
                 <p className="text-gray-600 mt-2">
-                  Graduated with a CGPA of 7.03
+                  Electronics & Communication Eng. Graduate, CGPA 7.03.
                 </p>
-                <span className="text-sm text-gray-500">Dec 2021</span>
+                <span className="text-sm text-gray-500">May 2018</span>
               </div>
             </div>
 
@@ -56,12 +56,12 @@ function TimelineDashboard() {
               {/* Card */}
               <div className="bg-white p-6 rounded-lg shadow-lg mb-4 transform transition-transform hover:scale-105">
                 <h5 className="text-xl font-semibold text-purple-600">
-                  Nov 2018 Journey at Accenture
+                  New Chapter
                 </h5>
                 <p className="text-gray-600 mt-2">
-                  Joined Accenture as an Associate Software Engineer
+                  Joined Accenture as an Associate Software Engineer.
                 </p>
-                <span className="text-sm text-gray-500">Feb 2022</span>
+                <span className="text-sm text-gray-500">Nov 2018</span>
               </div>
               {/* Icon */}
               <div className="w-12 h-12 bg-purple-600 text-white rounded-full flex items-center justify-center shadow-lg">
@@ -78,12 +78,12 @@ function TimelineDashboard() {
               {/* Card */}
               <div className="bg-white p-6 rounded-lg shadow-lg mt-4 transform transition-transform hover:scale-105">
                 <h5 className="text-xl font-semibold text-yellow-600">
-                  Sept 2021 Pursuing Master's Degree
+                  Pursuing Master's Degree
                 </h5>
                 <p className="text-gray-600 mt-2">
                   Enrolled in FAU's Artificial Intelligence program
                 </p>
-                <span className="text-sm text-gray-500">Dec 2022</span>
+                <span className="text-sm text-gray-500">Sept 2021</span>
               </div>
             </div>
 
@@ -92,13 +92,13 @@ function TimelineDashboard() {
               {/* Card */}
               <div className="bg-white p-6 rounded-lg shadow-lg mb-4 transform transition-transform hover:scale-105">
                 <h5 className="text-xl font-semibold text-red-600">
-                  Apr 2022 Continuation of Professional Journey
+                  Advancing my professional journey
                 </h5>
                 <p className="text-gray-600 mt-2">
                   Joined Siemens Healthineers as a Working Student/Software
-                  Engineer
+                  Engineer.
                 </p>
-                <span className="text-sm text-gray-500">Mar 2023</span>
+                <span className="text-sm text-gray-500">Apr 2022</span>
               </div>
               {/* Icon */}
               <div className="w-12 h-12 bg-red-600 text-white rounded-full flex items-center justify-center shadow-lg">
@@ -115,13 +115,12 @@ function TimelineDashboard() {
               {/* Card */}
               <div className="bg-white p-6 rounded-lg shadow-lg mt-4 transform transition-transform hover:scale-105">
                 <h5 className="text-xl font-semibold text-pink-600">
-                  Present Adding New Milestone
+                  Embracing new milestones
                 </h5>
                 <p className="text-gray-600 mt-2">
-                  Looking for opportunities to improve my skills and contribute
-                  to an organization
+                  Eager to enhance my skills and make a meaningful impact
                 </p>
-                <span className="text-sm text-gray-500">Oct 2023</span>
+                <span className="text-sm text-gray-500">Present</span>
               </div>
             </div>
           </div>

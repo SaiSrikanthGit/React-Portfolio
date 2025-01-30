@@ -141,7 +141,7 @@ function Footer() {
 
         {/* Copyright */}
         <div className="text-center text-gray-400">
-          <p>&copy; 2025 Sai Srikanth Chodimella. All Rights Reserved.</p>
+          <p>&copy;Sai Srikanth Chodimella. All Rights Reserved.</p>
         </div>
       </div>
     </div>
